@@ -1,24 +1,8 @@
-import 'display_FruitDetails.dart';
+import 'displayFruitDetails.dart';
 import 'applyPriceDiscount.dart';
+import 'fruitMap.dart';
+
 void main() {
-  List<Map<String, dynamic>> fruits = [
-    {
-      'name': 'Tamarillo',
-      'color': 'Black',
-      'price': 5.5
-    },
-
-    {
-      'name': 'Tangelo ',
-      'color': 'Red',
-      'price': 10.0
-    },
-
-    {
-      'name': 'Star Fruit',
-      'color': 'Green',
-      'price': 30.0}
-  ];
 
   print("Original Fruit Details before Discount:");
   displayFruitDetails(fruits);
